@@ -85,19 +85,19 @@ nav a{
   z-index: 1;
 
   /* Requirement 3a code here*/
-  position: relative;
-  top: 40px;
-  display: none;
+  position: absolute;
+  top: -40px;
 }
 
 /* Requirement 3b code here*/
-a:focus {
-  display: static;
-  position: absolute;
+.skip a:focus {
+  top: 10px;
+}
 
 
 
 /* Requirement 4 code here*/
+*:focus{
 border: 2px solid black;
 }
 
@@ -196,7 +196,7 @@ header{
   
 
   /* Your code here */
-  margin: auto;
+  align-self: center;
 
 }
 
